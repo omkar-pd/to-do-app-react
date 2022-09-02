@@ -1,0 +1,67 @@
+.list-wrapper {
+  height: 100%;
+}
+.list {
+  position: relative;
+  min-height: 65vh;
+}
+.list > div {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid grey;
+  border-bottom: 2px dashed grey;
+}
+.list button {
+  cursor: pointer;
+}
+.list .list-item {
+  display: flex;
+  padding: 8px 0;
+  margin: 8px 0;
+}
+.list .list-item input {
+  border: 2px solid black;
+  height: 20px;
+}
+.list .list-item label {
+  cursor: pointer;
+}
+.list div button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin: auto;
+}
+
+.list-item button svg {
+  pointer-events: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.list .list-item input,
+label {
+  width: 33%;
+  font-size: 1.1rem;
+}
+
+.toggle-buttons {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: skyblue;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.toggle-buttons svg {
+  color: white;
+}
+
+.toggled {
+  background-color: rgb(255 105 156);
+}

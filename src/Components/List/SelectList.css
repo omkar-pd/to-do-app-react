@@ -1,0 +1,38 @@
+.select-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #0dbaff;
+}
+
+.select-list div {
+  width: 100%;
+}
+.select-list p {
+  margin: 0;
+  width: 100%;
+}
+.select-list button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+.select-list svg {
+  pointer-events: none;
+}
+.select-list .selected {
+  border-bottom: 2px solid red;
+  color: white;
+}
+
+.select-list .selected {
+  color: white;
+  font-weight: bolder;
+}
